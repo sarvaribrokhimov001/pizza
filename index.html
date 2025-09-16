@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pizza </title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="container">
+     <header>
+      <nav class="navbar">
+        <div class="navbar_logo">
+         <img src="./images/logo.png" alt="navbar_logo">
+        </div>
+         <ul class="navbar_list">
+            <li class="navbar_item">
+              <a href="#" class="navbar_link"> Home </a>
+            </li>
+            <li class="navbar_item">
+              <a href="#" class="navbar_link"> Menu </a>
+            </li>
+            <li class="navbar_item">
+              <a href="#" class="navbar_link"> Events </a>
+            </li>
+            <li class="navbar_item">
+              <a href="#" class="navbar_link"> About us </a>
+            </li>
+         </ul>
+            <div class="navbar_right">
+             <button class="navbar_btn"> Log in </button>
+              <div class="shopping"> 
+               <i class="ri-shopping-bag-4-line shop_icon"> </i>
+                 </div> 
+                   </div>
+                     </nav>
+            <div class="intro">
+             <div class="intro_left">
+              <h2 class="intro_title"> The Fastest Pizza 
+               <span> <i class="ri-flashlight-fill lighting"> </i> </span> Delivery </h2>
+                 <p class="intro_text">
+                    We will deliver juicy pizza for your family in 30 minutes, 
+                     if the courier is late - pizza is free!
+                </p>
+                <div class="intro_images">
+                <img class="play_pizza" src="./images/play_pizza.png" alt="play_pizza_img">  
+                <img class="play" src="./images/play.png" alt="play_img">
+                </div>
+                <div class="intro_buttons">
+                  <button class="intro_active_btn navbar_btn"> To order </button>
+                  <button class="intro_unactive_btn"> Pizza-Menu </button>
+                </div>
+                </div>
+
+            <div class="intro_right">
+              <img class="piece_of_pizza" src="./images/piece_of_pizza.png" alt="piece_of_pizza_img">
+              <img class="pizza_with_sauce" src="./images/pizza_with_sauce.png" alt="pizza_with_sauce_img">
+              <img class="fries" src="./images/fries.png" alt="fries_img">
+            </div>
+          </div>
+      </header>
+    </div>
+
+
+    <div class="menu_container">
+      <div class="menu_title"> Menu </div>
+      <div class="menu_navbar">
+        <button class="menu_btn navbar_btn"> Show All </button>
+        <button class="menu_btn"> Meat </button>
+        <button class="menu_btn"> Vegetarian </button>
+        <button class="menu_btn"> Sea products </button>
+        <button class="menu_btn"> Mushroom </button>
+      </div>
+
+      <div class="pizzas">
+        <div class="about_pizzas">
+        <div class="type_of_pizzas">
+          <img src="./images/italian.png" alt="italian_pizza">
+        </div>
+        <div class="menu_title1"> Italian </div>
+        <div class="pizzas_text">
+          Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+        </div>
+        <div class="menu_small_buttons">
+          <button class="menu_small_btn"> 22 </button>
+          <button id="menu_small_btn"> 28 </button>
+          <button class="menu_small_btn"> 33 </button>
+        </div>
+        <button class="ing_btn"> + Ingridients </button>
+        <div class="price_items">
+        <p class="menu_price"> 8,35 <sup> $ </sup> </p>
+        <button class="remove"> - </button>
+        <p class="item_numbers"> 1 </p>
+        <button class="add"> + </button>
+        </div>
+        <div class="menu_final_btn"> Order Now </div>
+      </div>
+
+      <div class="about_pizzas">
+      <div class="type_of_pizzas">
+          <img src="./images/venecia.png" alt="venecia_pizza">
+        </div>
+         <div class="menu_title1"> Venecia </div>
+        <div class="pizzas_text">
+          Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+        </div>
+        <div class="menu_small_buttons">
+          <button class="menu_small_btn"> 22 </button>
+          <button id="menu_small_btn"> 28 </button>
+          <button class="menu_small_btn"> 33 </button>
+        </div>
+        <button class="ing_btn"> + Ingridients </button>
+        <div class="price_items">
+        <p class="menu_price"> 7,35 <sup> $ </sup> </p>
+        <button class="remove"> - </button>
+        <p class="item_numbers"> 1 </p>
+        <button class="add"> + </button>
+        </div>
+        <div class="menu_final_btn"> Order Now </div>
+      </div>
+
+      <div class="about_pizzas">
+      <div class="type_of_pizzas">
+          <img src="./images/meat.png" alt="meat_pizza">
+        </div>
+        <div class="menu_title1"> Meat </div>
+        <div class="pizzas_text">
+          Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+        </div>
+        <div class="menu_small_buttons">
+          <button class="menu_small_btn"> 22 </button>
+          <button id="menu_small_btn"> 28 </button>
+          <button class="menu_small_btn"> 33 </button>
+        </div>
+        <button class="ing_btn"> + Ingridients </button>
+        <div class="price_items">
+        <p class="menu_price"> 9,35 <sup> $ </sup> </p>
+        <button class="remove"> - </button>
+        <p class="item_numbers"> 1 </p>
+        <button class="add"> + </button>
+        </div>
+        <div class="menu_final_btn"> Order Now </div>
+      </div>
+
+      <div class="about_pizzas">
+      <div class="type_of_pizzas">
+          <img src="./images/cheese.png" alt="cheese_pizza">
+        </div>
+        <div class="menu_title1"> Cheese </div>
+        <div class="pizzas_text">
+          Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+        </div>
+        <div class="menu_small_buttons">
+          <button class="menu_small_btn"> 22 </button>
+          <button id="menu_small_btn"> 28 </button>
+          <button class="menu_small_btn"> 33 </button>
+        </div>
+        <button class="ing_btn"> + Ingridients </button>
+        <div class="price_items">
+        <p class="menu_price"> 8,35 <sup> $ </sup> </p>
+        <button class="remove"> - </button>
+        <p class="item_numbers"> 1 </p>
+        <button class="add"> + </button>
+        </div>
+        <div class="menu_final_btn"> Order Now </div>
+      </div>
+      </div>
+      
+      <div class="most_popular_pizza">
+        <img src="./images/most_popular_pizza.png" alt="most_popular_pizza_img">
+      </div>
+      
+     <div class="pizzas">
+        <div class="about_pizzas">
+        <div class="type_of_pizzas">
+          <img src="./images/argentina_pizza.png" alt="argentinian_pizza">
+        </div>
+        <div class="menu_title1"> Argentina </div>
+        <div class="pizzas_text">
+          Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+        </div>
+        <div class="menu_small_buttons">
+          <button class="menu_small_btn"> 22 </button>
+          <button id="menu_small_btn"> 28 </button>
+          <button class="menu_small_btn"> 33 </button>
+        </div>
+        <button class="ing_btn"> + Ingridients </button>
+        <div class="price_items">
+        <p class="menu_price"> 7,35 <sup> $ </sup> </p>
+        <button class="remove"> - </button>
+        <p class="item_numbers"> 1 </p>
+        <button class="add"> + </button>
+        </div>
+        <div class="menu_final_btn"> Order Now </div>
+      </div>
+
+      <div class="about_pizzas">
+      <div class="type_of_pizzas">
+          <img src="./images/gribnaya.png" alt="gribnaya_pizza">
+        </div>
+         <div class="menu_title1"> Gribnaya </div>
+        <div class="pizzas_text">
+          Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+        </div>
+        <div class="menu_small_buttons">
+          <button class="menu_small_btn"> 22 </button>
+          <button id="menu_small_btn"> 28 </button>
+          <button class="menu_small_btn"> 33 </button>
+        </div>
+        <button class="ing_btn"> + Ingridients </button>
+        <div class="price_items">
+        <p class="menu_price"> 6,35 <sup> $ </sup> </p>
+        <button class="remove"> - </button>
+        <p class="item_numbers"> 1 </p>
+        <button class="add"> + </button>
+        </div>
+        <div class="menu_final_btn"> Order Now </div>
+      </div>
+
+      <div class="about_pizzas">
+      <div class="type_of_pizzas">
+          <img src="./images/tomato.png" alt="tomato_pizza">
+        </div>
+        <div class="menu_title1"> Tomato </div>
+        <div class="pizzas_text">
+          Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+        </div>
+        <div class="menu_small_buttons">
+          <button class="menu_small_btn"> 22 </button>
+          <button id="menu_small_btn"> 28 </button>
+          <button class="menu_small_btn"> 33 </button>
+        </div>
+        <button class="ing_btn"> + Ingridients </button>
+        <div class="price_items">
+        <p class="menu_price"> 7,35 <sup> $ </sup> </p>
+        <button class="remove"> - </button>
+        <p class="item_numbers"> 1 </p>
+        <button class="add"> + </button>
+        </div>
+        <div class="menu_final_btn"> Order Now </div>
+      </div>
+
+      <div class="about_pizzas">
+      <div class="type_of_pizzas">
+          <img src="./images/italian_x2.png" alt="italian_x2_pizza">
+        </div>
+        <div class="menu_title1"> Italian_x2 </div>
+        <div class="pizzas_text">
+          Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...
+        </div>
+        <div class="menu_small_buttons">
+          <button class="menu_small_btn"> 22 </button>
+          <button id="menu_small_btn"> 28 </button>
+          <button class="menu_small_btn"> 33 </button>
+        </div>
+        <button class="ing_btn"> + Ingridients </button>
+        <div class="price_items">
+        <p class="menu_price"> 8,35 <sup> $ </sup> </p>
+        <button class="remove"> - </button>
+        <p class="item_numbers"> 1 </p>
+        <button class="add"> + </button>
+        </div>
+        <div class="menu_final_btn"> Order Now </div>
+      </div>
+    </div>
+  </div> <!-- pizzas div of second container-->
+  
+
+  <div class="events">
+   <div class="row_img_1">
+    <div class="event_1">
+    <img src="./images/how_we_cooking.png" alt="how_we_cooking_img">
+    <p class="how_we_cooking"> HOW WE COOKING </p>
+    <button class="event_btn1"> More </button>
+     <img class="egg_and_bacon" src="./images/egg and bacon .png" alt="egg and bacon_img">
+    </div> <!-- har bir rasm divi-->
+    
+    <div class="event_2">
+      <img src="./images/our_blog.png" alt="our_blog_img">
+      <p class="our_blog"> OUR BLOG </p>
+      <button class="event_btn1"> More </button>
+    </div> <!-- har bir rasm divi-->
+   </div> <!-- birinchi qatordagi rasmlar-->
+  </div> <!-- events butun container-->
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div> <!--wrapper-->
+    
+</body>
+</html>
