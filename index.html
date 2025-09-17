@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Pizza </title>
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -47,9 +45,12 @@
                     We will deliver juicy pizza for your family in 30 minutes, 
                      if the courier is late - pizza is free!
                 </p>
-                <div class="intro_images">
+                <!-- <div class="intro_images">
                 <img class="play_pizza" src="./images/play_pizza.png" alt="play_pizza_img">  
                 <img class="play" src="./images/play.png" alt="play_img">
+                </div> -->
+                <div class="intro_video">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/akIWCPt7ULs?si=T23jrcYixPYZf6rP" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div class="intro_buttons">
                   <button class="intro_active_btn navbar_btn"> To order </button>
@@ -88,7 +89,7 @@
         </div>
         <div class="menu_small_buttons">
           <button class="menu_small_btn"> 22 </button>
-          <button id="menu_small_btn"> 28 </button>
+          <button class="menu_small_btn1"> 28 </button>
           <button class="menu_small_btn"> 33 </button>
         </div>
         <button class="ing_btn"> + Ingridients </button>
@@ -111,7 +112,7 @@
         </div>
         <div class="menu_small_buttons">
           <button class="menu_small_btn"> 22 </button>
-          <button id="menu_small_btn"> 28 </button>
+          <button class="menu_small_btn1"> 28 </button>
           <button class="menu_small_btn"> 33 </button>
         </div>
         <button class="ing_btn"> + Ingridients </button>
@@ -134,7 +135,7 @@
         </div>
         <div class="menu_small_buttons">
           <button class="menu_small_btn"> 22 </button>
-          <button id="menu_small_btn"> 28 </button>
+          <button class="menu_small_btn1"> 28 </button>
           <button class="menu_small_btn"> 33 </button>
         </div>
         <button class="ing_btn"> + Ingridients </button>
@@ -157,7 +158,7 @@
         </div>
         <div class="menu_small_buttons">
           <button class="menu_small_btn"> 22 </button>
-          <button id="menu_small_btn"> 28 </button>
+          <button class="menu_small_btn1"> 28 </button>
           <button class="menu_small_btn"> 33 </button>
         </div>
         <button class="ing_btn"> + Ingridients </button>
@@ -186,7 +187,7 @@
         </div>
         <div class="menu_small_buttons">
           <button class="menu_small_btn"> 22 </button>
-          <button id="menu_small_btn"> 28 </button>
+          <button class="menu_small_btn1"> 28 </button>
           <button class="menu_small_btn"> 33 </button>
         </div>
         <button class="ing_btn"> + Ingridients </button>
@@ -209,7 +210,7 @@
         </div>
         <div class="menu_small_buttons">
           <button class="menu_small_btn"> 22 </button>
-          <button id="menu_small_btn"> 28 </button>
+          <button class="menu_small_btn1"> 28 </button>
           <button class="menu_small_btn"> 33 </button>
         </div>
         <button class="ing_btn"> + Ingridients </button>
@@ -232,7 +233,7 @@
         </div>
         <div class="menu_small_buttons">
           <button class="menu_small_btn"> 22 </button>
-          <button id="menu_small_btn"> 28 </button>
+          <button class="menu_small_btn1"> 28 </button>
           <button class="menu_small_btn"> 33 </button>
         </div>
         <button class="ing_btn"> + Ingridients </button>
@@ -255,7 +256,7 @@
         </div>
         <div class="menu_small_buttons">
           <button class="menu_small_btn"> 22 </button>
-          <button id="menu_small_btn"> 28 </button>
+          <button class="menu_small_btn1"> 28 </button>
           <button class="menu_small_btn"> 33 </button>
         </div>
         <button class="ing_btn"> + Ingridients </button>
@@ -272,35 +273,113 @@
   
 
   <div class="events">
-   <div class="row_img_1">
-    <div class="event_1">
-    <img src="./images/how_we_cooking.png" alt="how_we_cooking_img">
-    <p class="how_we_cooking"> HOW WE COOKING </p>
-    <button class="event_btn1"> More </button>
-     <img class="egg_and_bacon" src="./images/egg and bacon .png" alt="egg and bacon_img">
-    </div> <!-- har bir rasm divi-->
+    <div class="row_img_1">
+     <div class="event_1">
+     <p class="how_we_cooking"> HOW WE COOKING </p> 
+    <button class="event_btn1"> More </button> 
+     </div> <!--har bir rasm divi -->
     
     <div class="event_2">
-      <img src="./images/our_blog.png" alt="our_blog_img">
       <p class="our_blog"> OUR BLOG </p>
-      <button class="event_btn1"> More </button>
-    </div> <!-- har bir rasm divi-->
-   </div> <!-- birinchi qatordagi rasmlar-->
-  </div> <!-- events butun container-->
+      <button class="event_btn2 event_btn1"> More </button>
+    </div> <!--har bir rasm divi-->
+     <div class="event_title"> <h2> Events </h2> </div><br>
+  </div> <!--birinchi qatordagi rasmlar-->
+  <div class="event_text"> <p> There are regular events in our pizzeria that will <br>
+       allow you to eat delicious food for a lower price! </p> </div>
+  
+  <div class="row_img_2 row_img_1">
+    <div class="event_3">
+       <p class="TWO_PIZZA_FOR_1_PRICE"> TWO PIZZA FOR 1 PRICE </p>
+      <button class="event_btn3 event_btn1"> More </button>
+    </div>
+
+    <div class="event_4">
+       <p class="KITCHEN_TOUR"> KITCHEN TOUR </p>
+      <button class="event_btn4 event_btn1"> More </button>
+    </div>
+  </div>
+
+  <div class="row_img_3">
+    <div class="event_5">
+       <p class="FREE_COFFEE_FOR_3_PIZZA"> FREE COFFEE FOR 3 PIZZA </p>
+      <button class="event_btn5 event_btn1"> More </button>
+    </div>
+
+    <div class="event_6">
+       <p class="OUR_INSTAGRAM"> OUR INSTAGRAM </p>
+      <button class="event_btn6 event_btn1"> More </button>
+    </div>
+  
+      
+   <div class="event_7">
+       <p class="WHERE_ARE_YOU_CHOOSE_US"> WHERE ARE YOU CHOOSE US? </p>
+      <button class="event_btn7 event_btn1"> More </button>
+   </div>   
+  </div>
+</div>   <!-- events butun container -->
 
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </div> <!--wrapper-->
-    
-</body>
+ <div class="about_us_container"> 
+   <div class="about_us_left">
+     <h1 class="about_us_title"> About us </h1>
+     <p class="about_us_text"> In just a couple of years, we have opened 6 outlets in different cities: Kazan, Chelyabinsk,
+       Ufa, Samara, Izhevsk, and in the future we plan to develop the network in other major cities of Russia. </p>
+        <img class="pizzas1" src="/images/pizzas.png" alt="pizzas_img">
+          <p class="about_us_text1">The kitchen of each point is at least: 400-500 sq. m. meters, hundreds of employees, 
+            smoothly performing work in order to receive / prepare / form / deliver customer orders on time. </p>
+          </div>
+
+          <div class="about_us_right">
+            <img class="about_us_pizza" src="./images/about_us_pizza.png" alt="about_us_pizza_img">
+            <img class="piece_of_pizza1" src="./images/piece_of_pizza.png" alt="piece_of_pizza1_img">
+            <img class="fries1" src="./images/fries.png" alt="fries1_img">
+          </div> <!--about_us_right-->
+        </div>  <!--about_us_container-->
+
+      
+  <footer>
+    <div class="footer_container">
+      <div class="logo"> pizzashop </div>
+        <div class="footer_texts">
+       <div class="footer_all_texts">
+          <h4 class="footer_title"> Home </h4>
+                <p class="footer_text"> To Order </p>
+                <p class="footer_text"> About us </p>
+                <p class="footer_text"> Events </p>
+                <p class="footer_text"> Menu </p>
+              </div>
+       <div class="footer_all_texts">
+          <h4 class="footer_title"> Events </h4>
+                <p class="footer_text"> 3 Pizza 1 Free Coffee </p>
+                <p class="footer_text"> 2 Pizza for 1 Price </p>
+                <p class="footer_text"> Kitchen Tour </p>
+              </div>
+       <div class="footer_all_texts">
+          <h4 class="footer_title"> Menu </h4>
+                <p class="footer_text"> Show All </p>
+                <p class="footer_text"> Seaproducts </p>
+                <p class="footer_text"> Vegan </p> 
+                <p class="footer_text"> Meat </p>
+              </div>
+       <div class="footer_all_texts">
+          <h4 class="footer_title"> About Us </h4>
+                <p class="footer_text"> Our History </p>
+                <p class="footer_text"> Why We? </p>
+              </div>
+            </div>
+      
+      <div class="footer_bottom">
+          <a class="footer_num"  href="tel:+7 (937) 333-55-33"> +7 (937) 333-55-33 </a>
+        <div class="social_icons">
+          <a href="https://www.instagram.com/#"> <i class="ri-instagram-line INSTAGRAM"> </i> </a>  
+          <a href="https://twitter.com/"> <i class="ri-twitter-line TWITTER"> </i> </a>
+          <a href="https://www.facebook.com/"> <i class="ri-facebook-line FACEBOOK"> </i> </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+     </div> <!--wrapper-->
+   </body>
 </html>

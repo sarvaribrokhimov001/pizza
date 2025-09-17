@@ -46,16 +46,16 @@ a {
 .navbar_link { 
     font-style: normal;
     font-weight: 400;
-    font-size: 17.8805px;
-    line-height: 109.5%;
+    font-size: 17px;
+    line-height: 27px;
     color: #A3A3A3;
 }
 
 .navbar_link:hover {
     font-style: normal;
     font-weight: 400;
-    font-size: 17.8805px;
-    line-height: 109.5%;
+    font-size: 17px;
+    line-height: 27px;
 
     background: linear-gradient(261.69deg, #FF6432 12.12%, #FFA228 86.72%);
     -webkit-background-clip: text;
@@ -73,9 +73,13 @@ a {
 
     font-style: normal;
     font-weight: 500;
-    font-size: 17.74px;
-    line-height: 109.5%;
+    font-size: 17px;
+    line-height: 27px;
     color: #fff;
+}
+
+.navbar_btn:hover {
+    background-color: #e3c7a8;
 }
 
 .navbar_right {
@@ -124,13 +128,13 @@ a {
     width: 411px;
     font-style: normal;
     font-weight: 400;
-    font-size: 19.5621px;
+    font-size: 19px;
     line-height: 30px;
     color: #a3a3a3;
     margin-top: 20px;
 }
 
-.intro_images {
+/* .intro_images {
     margin-top: 55px;
 }
 
@@ -138,6 +142,10 @@ a {
     position: relative;
     left: -310px;
     top: -48px;
+} */
+
+.intro_video {
+    margin: 30px 0px;
 }
 
 .intro_unactive_btn {
@@ -180,8 +188,6 @@ a {
     bottom: -100px;
     left: -120px;
 }
-
-
 
 .menu_container {
     width: 1469px;
@@ -227,6 +233,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
+    box-shadow: -15px 21px 68px rgba(103, 25, 0, 0.23);
 }
 
 .about_pizzas {
@@ -238,6 +245,9 @@ a {
 .type_of_pizzas {
     display: flex;
     justify-content: center;
+    width: 159px;
+    height: 157px;
+    margin: auto;
 }
 
 .menu_title1 {
@@ -283,7 +293,7 @@ a {
     background-color: #ba6e17;
 }
 
-#menu_small_btn {
+.menu_small_btn1 {
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -300,6 +310,7 @@ a {
     margin-top: 10px;
     filter: drop-shadow(0px 7.59366px 33.7496px rgba(255, 107, 0, 0.06));
     border-radius: 84.374px;
+    
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -392,68 +403,386 @@ a {
 
 .events {
     width: 1562px;
-    height: 1055px;
+    height: 1200px;
     margin: auto;
     padding: 100px;
 }
 
-.row_img_1 {
+ .row_img_1 {       
     display: flex;
+    gap: 30px; 
+ } 
+
+.event_1 {
+    background-image: url(./images/how_we_cooking.png);
+    background-repeat: no-repeat;
+    width: 367px;
+    height: 260px;
 }
 
-.how_we_cooking {
-    position: absolute;
+ .how_we_cooking {
     width: 171px;
-    height: 54px;
-    left: 350px;
-    top: 2880px;
-
+    height: 54px; 
+    margin: 75px 30px;
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
     line-height: 27px;
     color: #fff;
-}
+} 
 
 .event_btn1 {
-    position: absolute;
     width: 204px;
-    height: 38px;
-    left: 345px;
-    top: 2970px;
-
+    height: 38px; 
+    margin-bottom: 20px;
     background: linear-gradient(261.69deg, #FF5D29 12.12%, #FE9C1C 86.72%);
     border-radius: 32px;
-
+    margin: 0px auto;
     font-style: normal;
     font-weight: 500;
-    font-size: 15.3846px;
+    font-size: 15px;
     line-height: 17px;
     color: #fff;
 }
 
-.event_btn1:hover {
-    background-color: rgb(243, 201, 160);
-}
-
-.egg_and_bacon {
-    position: absolute;
-    width: 218.27px;
-    height: 218.27px;
-    left: 200px;
-    top: 2950px;
-}
-
 .our_blog {
-    position: absolute;
-    width: 133px;
-    height: 27px;
-    left: 720px;
-    top: 2882px;
-
+    margin: 70px 50px 0px 20px;
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
     line-height: 27px;
     color: #fff;
+}
+
+.event_2 {
+    background-image: url(./images/our_blog.png);
+    background-repeat: no-repeat;
+    width: 396px;
+    height: 260px;
+}
+
+.event_btn2 {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.event_title {
+    width: 222px;
+    height: 76px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 69px;
+    line-height: 76px;
+    color: #FFFFFF;
+    margin-left: 100px;
+}
+
+.event_text {
+    width: 420px;
+    height: 54px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 27px;
+    text-align: right;
+    margin-left: 800px;
+    margin-top: -130px;
+    color: #A3A3A3;
+}
+
+.event_3 {
+    background-image: url(./images/two_pizza_for_1_price.png);
+    background-repeat: no-repeat;
+    width: 916px;
+    height: 610px;
+    border-radius: 30px;
+    margin-top: 100px;
+}
+
+.TWO_PIZZA_FOR_1_PRICE {
+    width: 170px;
+    height: 54px;
+    margin: 30px 120px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.event_btn3 {
+    margin-top: 70px;
+    margin-left: 110px;
+}
+
+.event_4 {
+    background-image: url(./images/kitchen_tour.png);
+    background-repeat: no-repeat;
+    width: 614px;
+    height: 260px;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+
+.KITCHEN_TOUR {
+    width: 168px;
+    height: 54px;
+    margin-top: 100px;
+    margin-left: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.event_btn4 {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.event_5 {
+    background-image: url(./images/free_coffee_for_3_pizza.png);
+    background-repeat: no-repeat;
+    width: 401px;
+    height: 260px;
+    border-radius: 20px;
+    margin-top: -300px;
+}
+
+.FREE_COFFEE_FOR_3_PIZZA {
+    width: 200px;
+    height: 54px;
+    padding-left: 20px;
+    padding-top: 70px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.event_btn5 {
+    margin-top: 110px;
+    margin-left: 20px;
+}
+
+.event_6 {
+    background-image: url(./images/our_instagram.png);
+    background-repeat: no-repeat;
+    width: 401px;
+    height: 260px;
+    border-radius: 20px;
+    margin-top: -300px;
+}
+
+.row_img_3 {
+    display: flex;
+    gap: 30px;
+}
+
+.OUR_INSTAGRAM {
+    width: 168px;
+    height: 54px;
+    padding-top: 70px;
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25.0926px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.event_btn6 {
+    margin-top: 110px;
+    margin-left: 20px;
+}
+
+.event_7 {
+    background-image: url(./images/are_you_choose_us.png);
+    background-repeat: no-repeat;
+    width: 401px;
+    height: 260px;
+    border-radius: 20px;
+    margin-top: -300px;
+}
+
+.WHERE_ARE_YOU_CHOOSE_US {
+    width: 200px;
+    height: 81px;
+    padding-top: 70px;
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25.0926px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.event_btn7 {
+    margin-top: 110px;
+    margin-left: 20px;
+}
+
+.about_us_container {
+    width: 1513px;
+    height: 764px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    position: relative;
+    margin: auto;
+}
+
+.about_us_title {
+    width: 350px;
+    height: 76px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 69px;
+    line-height: 76px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.about_us_text {
+    width: 445px;
+    height: 108px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 27px;
+    color: #A3A3A3;
+}
+
+.pizzas1 {
+    width: 490px;
+    height: 189px;
+    margin-left: -15px;
+}
+
+.about_us_text1 {
+    width: 409px;
+    height: 108px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 27px;
+    color: #A3A3A3;
+}
+
+.about_us_right {
+    position: relative;
+}
+
+.about_us_pizza {
+    width: 567px;
+    height: 541px;
+    box-shadow: -15px 21px 68px rgba(103, 25, 0, 0.23);
+    border-radius: 34px;
+}
+
+.fries1 {
+    position: absolute;
+    bottom: 130px;
+    left: -40px;
+    width: 203px;
+    height: 215px;
+}
+
+.piece_of_pizza1 {
+    position: absolute;
+    top: -60px;
+    right: -70px;
+    width: 236px;
+    height: 236px;
+}
+
+footer {
+    width: 1512px;
+    height: 436px;
+    padding: 40px 100px;
+    background: linear-gradient(245.71deg, #170A00 4.96%, #170600 33.7%, #0F0700 68.41%, #170A00 96.42%);
+    margin: auto;
+}
+
+.footer_container {
+    margin: 0 auto;
+}
+
+.logo {
+    color: #ffa726;
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.footer_texts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer_title {
+    width: 134px;
+    height: 22px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+    color: #A3A3A3;
+}
+
+.footer_title:hover {
+    background: linear-gradient(261.69deg, #FF5D29 12.12%, #FE9C1C 86.72%);
+    color: #0F0700;
+}
+
+.footer_text {
+    width: 160px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #515151;
+    margin-top: 15px;
+}
+
+.footer_text:hover {
+    background: linear-gradient(261.69deg, #FF5D29 12.12%, #FE9C1C 86.72%);  
+    color: #0F0700;
+}
+
+.footer_num {
+    width: 199px;
+    height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.881px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+
+    background: linear-gradient(261.69deg, #FF612E 12.12%, #FFA32B 86.72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social_icons i {
+  color: #ffa726;
+  margin-left: 15px;
+  font-size: 27px;
 }
